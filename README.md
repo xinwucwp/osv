@@ -39,8 +39,12 @@ OSV fault: ./data/2d/campos/fv.dat
 Thinned OSV fault: ./data/2d/campos/fvt.dat
 
 <p align="left">
-  <img src="png/2d/campos/gx.png" width="445px" height="500px"/>
-  <img src="png/2d/campos/el.png" width="445px" height="500px"/>
+  <img src="png/2d/campos/gx.png" width="445px" height="300px"/>
+  <img src="png/2d/campos/el.png" width="445px" height="300px"/>
+</p>
+<p align="left">
+  <img src="png/2d/campos/fl.png" width="445px" height="300px"/>
+  <img src="png/2d/campos/fv.png" width="445px" height="300px"/>
 </p>
 
 #### 2) Netherlands off-shore F3 (provided by the Dutch Government through TNO and dGB Earth Sciences)
