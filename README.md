@@ -66,7 +66,7 @@ Thinned OSV fault: ./data/2d/crf/fvt.dat
 </p>
 <p align="left">
   <img src="png/2d/crf/fl.png" width="445px" height="200px"/>
-  <img src="png/2d/crf/fv.png" width="445px" height="200px"/>
+  <img src="png/2d/crf/fvt.png" width="445px" height="200px"/>
 </p>
 
 #### 2) Netherlands off-shore F3 (provided by the Dutch Government through TNO and dGB Earth Sciences)
