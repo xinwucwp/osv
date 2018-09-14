@@ -28,7 +28,7 @@ If you find this work helpful in your research, please cite:
 
 ### 2D examples
 
-#### 1) Campos in Figure 9 (seismic data was provided by Dr. Michael Hudec)
+#### 1) Campos data in Figure 9 (seismic data was provided by Dr. Michael Hudec)
 Dimensions: n1=300, n2=550
 
 Data type:  binary with BIG_ENDIAN
@@ -46,6 +46,27 @@ Thinned OSV fault: ./data/2d/campos/fvt.dat
 <p align="left">
   <img src="png/2d/campos/fl.png" width="445px" height="300px"/>
   <img src="png/2d/campos/fv.png" width="445px" height="300px"/>
+</p>
+
+#### 2) Costa Rica data in Figure 10 (acquired in the subduction zone, Costa Rica Margin, provided by Nathan Bangs)
+
+Dimensions: n1=210, n2=825
+
+Data type:  binary with BIG_ENDIAN
+
+Seismic: ./data/2d/crf/gx3366.dat
+
+OSV fault: ./data/2d/crf/fv.dat
+
+Thinned OSV fault: ./data/2d/crf/fvt.dat
+
+<p align="left">
+  <img src="png/2d/crf/gx.png" width="445px" height="300px"/>
+  <img src="png/2d/crf/el.png" width="445px" height="300px"/>
+</p>
+<p align="left">
+  <img src="png/2d/crf/fl.png" width="445px" height="300px"/>
+  <img src="png/2d/crf/fv.png" width="445px" height="300px"/>
 </p>
 
 #### 2) Netherlands off-shore F3 (provided by the Dutch Government through TNO and dGB Earth Sciences)
