@@ -27,7 +27,7 @@ If you find this work helpful in your research, please cite:
 2D and 3D examples published in the [paper](http://www.jsg.utexas.edu/wu/files/wu2018LeastSquaresHorizons.pdf).
 ### 2D examples
 
-#### 1) Campos in Figure 9 (data provided by Dr. Michael Hudec)
+#### 1) Campos in Figure 9 (seismic data was provided by Dr. Michael Hudec)
 Dimensions: n1=300, n2=550
 
 Data type:  binary with BIG_ENDIAN
