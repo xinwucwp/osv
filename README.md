@@ -29,16 +29,14 @@ If you find this work helpful in your research, please cite:
 
 #### 1) Campos in Figure 9 (data provided by Dr. Michael Hudec)
 Dimensions: n1=300, n2=550
+
 Data type:  binary with BIG_ENDIAN
+
 Seismic: ./data/2d/campos/gx373.dat
+
 OSV fault: ./data/2d/campos/fv.dat
+
 Thinned OSV fault: ./data/2d/campos/fvt.dat
-
-Left: predictive horizons with only local slopes
-
-Center: least-squares horizons with only local slopes
-
-Right: least-squares horizons with both local slopes and multi-grid correlations (proposed)
 
 <p align="left">
   <img src="png/2d/campos/gx.png" width="445px" height="500px"/>
