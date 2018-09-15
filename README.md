@@ -100,12 +100,21 @@ OSV fault: fv.dat; Fault likelihood: fl.dat
 Dimensions: n1=400, n2=801, n3=300
 
 
-#### 2) provided by RCRL at BEG (purchased from Australian Government-Geoscience Australia)
-A horizon surface extracted using the proposed method with one control point (green point in (b))
-<p align="left">
-  <img src="png/3d/aust3d/aust.png"/>
-</p>
+#### 3) Costa Rica data in Figure 16 (acquired in the subduction zone, Costa Rica Margin, provided by Nathan Bangs)
+The datasets can be downloaded from: https://drive.google.com/open?id=1fjZuonXYc55ytiKiFboUVkQWVRbht0yQ
 
+Dimensions: n1=210, n2=920, n3=825;
+
+Data type:binary with BIG_ENDIAN
+
+Seismic: gs.dat;   
+
+OSV fault: fv.dat; 
+
+<p align="left">
+  <img src="png/3d/crf/gs.png" width="445px" height="350px"/>
+  <img src="png/3d/crf/fv.png" width="445px" height="350px"/>
+</p>
 ---
 Copyright (c) 2018, Xinming Wu. All rights reserved.
 This software and accompanying materials are made available under the terms of
