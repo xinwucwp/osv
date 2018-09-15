@@ -51,7 +51,7 @@ Thinned OSV fault: ./data/2d/campos/fvt.dat
   <img src="png/2d/campos/fv.png" width="445px" height="300px"/>
 </p>
 <p align="center">
-  input 1-linearity (left) and output optimal voting result (right)
+  input 1-linearity (left) and output optimal path voting result (right)
 </p>
 
 #### 2) Costa Rica data in Figure 10 (acquired in the subduction zone, Costa Rica Margin, provided by Nathan Bangs)
@@ -82,7 +82,7 @@ Thinned fault likelihood: ./data/2d/crf/flt.dat
   <img src="png/2d/crf/fvt.png" width="445px" height="200px"/>
 </p>
 <p align="center">
-  input 1-linearity (left) and output optimal voting result (right)
+  input 1-linearity (left) and output optimal path voting result (right)
 </p>
 
 ---
@@ -101,11 +101,17 @@ OSV fault: fv.dat; Fault likelihood: fl.dat
 
 <p align="left">
   <img src="png/3d/f3d/seis.png" width="445px" height="350px"/>
-  <img src="png/3d/f3d/ep.png" width="445px" height="350px"/>
+  <img src="png/3d/f3d/fl.png" width="445px" height="350px"/>
+</p>
+<p align="center">
+  seismic image (left) and thinned fault likelihood (Hale, 2013; Wu and Hale, 2016)
 </p>
 <p align="left">
-  <img src="png/3d/f3d/fl.png" width="445px" height="350px"/>
+  <img src="png/3d/f3d/ep.png" width="445px" height="350px"/>
   <img src="png/3d/f3d/fv.png" width="445px" height="350px"/>
+</p>
+<p align="center">
+  input 1-planarity (left) and output optimal surface voting result (right)
 </p>
 
 #### 2) Clyde data in Figures 14 and 15 (provided by Clyde through Paradigm)
@@ -122,11 +128,17 @@ OSV fault: fv.dat
 
 <p align="left">
   <img src="png/3d/clyde/seis.png" width="445px" height="350px"/>
-  <img src="png/3d/clyde/ep.png" width="445px" height="350px"/>
+  <img src="png/3d/clyde/fl.png" width="445px" height="350px"/>
+</p>
+<p align="center">
+  seismic image (left) and thinned fault likelihood (Hale, 2013; Wu and Hale, 2016)
 </p>
 <p align="left">
-  <img src="png/3d/clyde/fl.png" width="445px" height="350px"/>
+  <img src="png/3d/clyde/ep.png" width="445px" height="350px"/>
   <img src="png/3d/clyde/fv.png" width="445px" height="350px"/>
+</p>
+<p align="center">
+  input 1-planarity (left) and output optimal surface voting result (right)
 </p>
 
 
@@ -147,10 +159,17 @@ Thinned OSV fault: fvt.dat;
   <img src="png/3d/crf/sub1/seis.png" width="445px" height="350px"/>
   <img src="png/3d/crf/sub1/fvt.png" width="445px" height="350px"/>
 </p>
+<p align="center">
+  seismic image (left) and thinned fault likelihood (Hale, 2013; Wu and Hale, 2016)
+</p>
 <p align="left">
   <img src="png/3d/crf/sub3/seis.png" width="445px" height="350px"/>
   <img src="png/3d/crf/sub3/fvt.png" width="445px" height="350px"/>
 </p>
+<p align="center">
+  input 1-planarity (left) and output optimal surface voting result (right)
+</p>
+
 ---
 Copyright (c) 2018, Xinming Wu. All rights reserved.
 This software and accompanying materials are made available under the terms of
