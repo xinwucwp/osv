@@ -81,7 +81,7 @@ The datasets can be downloaded from: https://drive.google.com/open?id=1InfMvCSZW
 
 Dimensions: n1=100, n2=400, n3=420;      Data type:binary with BIG_ENDIAN
 
-Seismic: xs.dat;                         Input planarity: ep.dat
+Seismic: xs.dat;\ \ \ \                          Input planarity: ep.dat
 
 OSV fault: fv.dat;                       Fault likelihood: fl.dat
 
