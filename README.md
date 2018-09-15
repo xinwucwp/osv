@@ -39,6 +39,8 @@ OSV fault: ./data/2d/campos/fv.dat
 
 Thinned OSV fault: ./data/2d/campos/fvt.dat
 
+upper-left: seismic image; upper-right: 1-linearity (input for optimal path voting)
+lower-left: fault likelihood (Hale, 2013; Wu and Hale, 2016); lower-right: optimal path voting result (proposed)
 <p align="left">
   <img src="png/2d/campos/gx.png" width="445px" height="300px"/>
   <img src="png/2d/campos/el.png" width="445px" height="300px"/>
