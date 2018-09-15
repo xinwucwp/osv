@@ -43,11 +43,8 @@ Thinned OSV fault: ./data/2d/campos/fvt.dat
   <img src="png/2d/campos/gx.png" width="445px" height="300px"/>
   <img src="png/2d/campos/fl.png" width="445px" height="300px"/>
 </p>
-<p align="center">
-seismic image (left) and thinned fault likelihood 
-[Hale 2013](https://library.seg.org/doi/10.1190/geo2012-0331.1); 
-[Wu and Hale, 2016](https://library.seg.org/doi/10.1190/geo2015-0380.1)
-</p>
+
+   ---------------------seismic image (left) and thinned fault likelihood ([Hale, 2013](https://library.seg.org/doi/10.1190/geo2012-0331.1); [Wu and Hale, 2016](https://library.seg.org/doi/10.1190/geo2015-0380.1))-----------------------
 <p align="left">
   <img src="png/2d/campos/el.png" width="445px" height="300px"/>
   <img src="png/2d/campos/fv.png" width="445px" height="300px"/>
@@ -104,9 +101,8 @@ OSV fault: fv.dat; Fault likelihood: fl.dat
   <img src="png/3d/f3d/seis.png" width="445px" height="350px"/>
   <img src="png/3d/f3d/fl.png" width="445px" height="350px"/>
 </p>
-<p align="center">
-  seismic image (left) and thinned fault likelihood ([Hale, 2013](https://library.seg.org/doi/10.1190/geo2012-0331.1); [Wu and Hale, 2016](https://library.seg.org/doi/10.1190/geo2015-0380.1))
-</p>
+
+   ---------------------seismic image (left) and thinned fault likelihood ([Hale, 2013](https://library.seg.org/doi/10.1190/geo2012-0331.1); [Wu and Hale, 2016](https://library.seg.org/doi/10.1190/geo2015-0380.1))-----------------------
 <p align="left">
   <img src="png/3d/f3d/ep.png" width="445px" height="350px"/>
   <img src="png/3d/f3d/fv.png" width="445px" height="350px"/>
@@ -131,9 +127,8 @@ OSV fault: fv.dat
   <img src="png/3d/clyde/seis.png" width="445px" height="350px"/>
   <img src="png/3d/clyde/fl.png" width="445px" height="350px"/>
 </p>
-<p align="center">
-  seismic image (left) and thinned fault likelihood ([Hale, 2013](https://library.seg.org/doi/10.1190/geo2012-0331.1); [Wu and Hale, 2016](https://library.seg.org/doi/10.1190/geo2015-0380.1))
-</p>
+
+   ---------------------seismic image (left) and thinned fault likelihood ([Hale, 2013](https://library.seg.org/doi/10.1190/geo2012-0331.1); [Wu and Hale, 2016](https://library.seg.org/doi/10.1190/geo2015-0380.1))-----------------------
 <p align="left">
   <img src="png/3d/clyde/ep.png" width="445px" height="350px"/>
   <img src="png/3d/clyde/fv.png" width="445px" height="350px"/>
@@ -160,9 +155,8 @@ Thinned OSV fault: fvt.dat;
   <img src="png/3d/crf/sub1/seis.png" width="445px" height="350px"/>
   <img src="png/3d/crf/sub1/fvt.png" width="445px" height="350px"/>
 </p>
-<p align="center">
-  seismic image (left) and thinned fault likelihood ([Hale, 2013](https://library.seg.org/doi/10.1190/geo2012-0331.1); [Wu and Hale, 2016](https://library.seg.org/doi/10.1190/geo2015-0380.1))
-</p>
+
+   ---------------------seismic image (left) and thinned fault likelihood ([Hale, 2013](https://library.seg.org/doi/10.1190/geo2012-0331.1); [Wu and Hale, 2016](https://library.seg.org/doi/10.1190/geo2015-0380.1))-----------------------
 <p align="left">
   <img src="png/3d/crf/sub3/seis.png" width="445px" height="350px"/>
   <img src="png/3d/crf/sub3/fvt.png" width="445px" height="350px"/>
