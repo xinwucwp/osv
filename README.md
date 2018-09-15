@@ -81,7 +81,7 @@ Dimensions: n1=100, n2=400, n3=420
 
 Data type:  binary with BIG_ENDIAN
 
-Seismic: ./data/3d/f3d/gx3366.dat
+Seismic: ./data/3d/f3d/xs.dat
 
 Input planarity: ./data/3d/f3d/ep.dat
 
@@ -97,6 +97,10 @@ Fault likelihood: ./data/3d/f3d/fl.dat
   <img src="png/3d/f3d/fl.png" width="445px" height="350px"/>
   <img src="png/3d/f3d/fv.png" width="445px" height="350px"/>
 </p>
+
+#### 2) Clyde data in Figures 14 and 15 (provided by Clyde through Paradigm)
+Dimensions: n1=400, n2=801, n3=300
+
 
 #### 2) provided by RCRL at BEG (purchased from Australian Government-Geoscience Australia)
 A horizon surface extracted using the proposed method with one control point (green point in (b))
