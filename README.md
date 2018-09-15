@@ -90,7 +90,7 @@ OSV fault: ./data/3d/f3d/fvt.dat
 Fault likelihood: ./data/3d/f3d/fl.dat
 
 <p align="left">
-  <img src="png/3d/f3d/gx.png" width="445px" height="350px"/>
+  <img src="png/3d/f3d/seis.png" width="445px" height="350px"/>
   <img src="png/3d/f3d/ep.png" width="445px" height="350px"/>
 </p>
 <p align="left">
