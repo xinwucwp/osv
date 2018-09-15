@@ -46,7 +46,7 @@ lower-left: fault likelihood (Hale, 2013; Wu and Hale, 2016); lower-right: optim
   <img src="png/2d/campos/el.png" width="445px" height="300px"/>
 </p>
 <p align="center">
-  <em>seismic image (left) and 1-linearity (right)</em>
+  seismic image (left) and 1-linearity (right)
 </p>
 <p align="left">
   <img src="png/2d/campos/fl.png" width="445px" height="300px"/>
