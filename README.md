@@ -104,7 +104,6 @@ Dimensions: n1=400, n2=801, n3=300
   <img src="png/3d/clyde/ep.png" width="445px" height="350px"/>
 </p>
 <p align="left">
-  <img src="png/3d/clyde/fl.png" width="445px" height="350px"/>
   <img src="png/3d/clyde/fv.png" width="445px" height="350px"/>
 </p>
 
