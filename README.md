@@ -60,58 +60,42 @@ OSV fault: ./data/2d/crf/fv.dat
 
 Thinned OSV fault: ./data/2d/crf/fvt.dat
 
+Fault likelihood: ./data/2d/crf/fl.dat
+
+Thinned fault likelihood: ./data/2d/crf/flt.dat
+
 <p align="left">
   <img src="png/2d/crf/gx.png" width="445px" height="200px"/>
   <img src="png/2d/crf/el.png" width="445px" height="200px"/>
 </p>
 <p align="left">
-  <img src="png/2d/crf/fl.png" width="445px" height="200px"/>
+  <img src="png/2d/crf/flt.png" width="445px" height="200px"/>
   <img src="png/2d/crf/fvt.png" width="445px" height="200px"/>
 </p>
 
-#### 2) Netherlands off-shore F3 (provided by the Dutch Government through TNO and dGB Earth Sciences)
-Left: predictive horizons with only local slopes
-
-Center: least-squares horizons with only local slopes
-
-Right: least-squares horizons with both local slopes and multi-grid correlations (proposed)
-
-<p align="left">
-  <img src="png/2d/f3d/f3dp.png" width="295px" height="200px"/>
-  <img src="png/2d/f3d/f3ds.png" width="295px" height="200px"/>
-  <img src="png/2d/f3d/f3dm.png" width="295px" height="200px"/>
-</p>
-
-#### 3) Curt (provided by Australian government)
-Top row: predictive horizons with only local slopes
-
-Middle row: least-squares horizons with only local slopes
-
-Bottom row: least-squares horizons with both local slopes and multi-grid correlations (proposed)
-
-<p align="left">
-  <img src="png/2d/curt/curtp.png" width="885px" height="350px"/>
-</p>
-<p align="left">
-  <img src="png/2d/curt/curts.png" width="885px" height="350px"/>
-</p>
-<p align="left">
-  <img src="png/2d/curt/curtm.png" width="885px" height="350px"/>
-</p>
-
+---
 ### 3D examples
 
-#### 1) Netherlands off-shore F3 (provided by the Dutch Government through TNO and dGB Earth Sciences)
-Top row: least-squares horizons with only local slopes
+#### 1) F3 data in Figure 11 (provided by the Dutch Government through TNO and dGB Earth Sciences)
+Dimensions: n1=100, n2=400, n3=420
 
-Bottom row: least-squares horizons with both local slopes and multi-grid correlations (proposed)
+Data type:  binary with BIG_ENDIAN
+
+Seismic: ./data/3d/f3d/gx3366.dat
+
+Input planarity: ./data/3d/f3d/ep.dat
+
+OSV fault: ./data/3d/f3d/fvt.dat
+
+Fault likelihood: ./data/3d/f3d/fl.dat
+
 <p align="left">
-  <img src="png/3d/f3d/surfs1.png" width="445px" height="350px"/>
-  <img src="png/3d/f3d/surfs2.png" width="445px" height="350px"/>
+  <img src="png/3d/f3d/gx.png" width="445px" height="350px"/>
+  <img src="png/3d/f3d/ep.png" width="445px" height="350px"/>
 </p>
 <p align="left">
-  <img src="png/3d/f3d/surfm1.png" width="445px" height="350px"/>
-  <img src="png/3d/f3d/surfm2.png" width="445px" height="350px"/>
+  <img src="png/3d/f3d/fl.png" width="445px" height="350px"/>
+  <img src="png/3d/f3d/fv.png" width="445px" height="350px"/>
 </p>
 
 #### 2) provided by RCRL at BEG (purchased from Australian Government-Geoscience Australia)
