@@ -79,11 +79,13 @@ Thinned fault likelihood: ./data/2d/crf/flt.dat
 #### 1) F3 data in Figure 11 (provided by the Dutch Government through TNO and dGB Earth Sciences)
 The datasets can be downloaded from: https://drive.google.com/open?id=1InfMvCSZWdJclykiTBIXDgV7HYdBj5_K
 
-Dimensions: n1=100, n2=400, n3=420;------Data type:binary with BIG_ENDIAN
+Dimensions: n1=100, n2=400, n3=420;
 
-Seismic: xs.dat;-------------------------Input planarity: ep.dat
+Data type:binary with BIG_ENDIAN
 
-OSV fault: fv.dat;-----------------------Fault likelihood: fl.dat
+Seismic: xs.dat;   Input planarity: ep.dat
+
+OSV fault: fv.dat; Fault likelihood: fl.dat
 
 <p align="left">
   <img src="png/3d/f3d/seis.png" width="445px" height="350px"/>
