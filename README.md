@@ -77,6 +77,7 @@ Thinned fault likelihood: ./data/2d/crf/flt.dat
 ### 3D examples
 
 #### 1) F3 data in Figure 11 (provided by the Dutch Government through TNO and dGB Earth Sciences)
+The datasets can be downloaded from: https://drive.google.com/open?id=1InfMvCSZWdJclykiTBIXDgV7HYdBj5_K
 Dimensions: n1=100, n2=400, n3=420
 
 Data type:  binary with BIG_ENDIAN
