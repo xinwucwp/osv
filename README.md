@@ -72,14 +72,21 @@ Fault likelihood: ./data/2d/crf/fl.dat
 
 Thinned fault likelihood: ./data/2d/crf/flt.dat
 
+.center[
+  <img src="png/2d/crf/gx.png" width="445px" height="200px"/>
+  <img src="png/2d/crf/fl.png" width="445px" height="200px"/>
+.caption[
+**Fig. 1:** Image caption
+]
+]
+
 <p align="left">
   <img src="png/2d/crf/gx.png" width="445px" height="200px"/>
   <img src="png/2d/crf/fl.png" width="445px" height="200px"/>
 </p>
-
 <p align="center">
 
-  seismic image (left) and thinned fault likelihood ([Hale, 2013](https://library.seg.org/doi/10.1190/geo2012-0331.1); [Wu and Hale, 2016](https://library.seg.org/doi/10.1190/geo2015-0380.1))
+seismic image (left) and thinned fault likelihood ([Hale, 2013](https://library.seg.org/doi/10.1190/geo2012-0331.1); [Wu and Hale, 2016](https://library.seg.org/doi/10.1190/geo2015-0380.1))
 </p>
 <p align="left">
   <img src="png/2d/crf/el.png" width="445px" height="200px"/>
