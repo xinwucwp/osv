@@ -145,7 +145,7 @@ Dimensions: n1=210, n2=920, n3=825;
 
 Data type:binary with BIG_ENDIAN
 
-Seismic: gs.dat;   
+Seismic: gx.dat;   
 
 OSV fault: fv.dat; 
 
