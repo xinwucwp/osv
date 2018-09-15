@@ -72,11 +72,17 @@ Thinned fault likelihood: ./data/2d/crf/flt.dat
 
 <p align="left">
   <img src="png/2d/crf/gx.png" width="445px" height="200px"/>
-  <img src="png/2d/crf/el.png" width="445px" height="200px"/>
+  <img src="png/2d/crf/fl.png" width="445px" height="200px"/>
+</p>
+<p align="center">
+  seismic image (left) and thinned fault likelihood (Hale, 2013; Wu and Hale, 2016)
 </p>
 <p align="left">
-  <img src="png/2d/crf/flt.png" width="445px" height="200px"/>
+  <img src="png/2d/crf/el.png" width="445px" height="200px"/>
   <img src="png/2d/crf/fvt.png" width="445px" height="200px"/>
+</p>
+<p align="center">
+  input 1-linearity (left) and output optimal voting result (right)
 </p>
 
 ---
