@@ -72,12 +72,16 @@ Fault likelihood: ./data/2d/crf/fl.dat
 
 Thinned fault likelihood: ./data/2d/crf/flt.dat
 
-.center[
+.left[
+
   <img src="png/2d/crf/gx.png" width="445px" height="200px"/>
   <img src="png/2d/crf/fl.png" width="445px" height="200px"/>
 .caption[
+
 **Fig. 1:** Image caption
+
 ]
+
 ]
 
 <p align="left">
