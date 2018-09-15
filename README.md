@@ -28,7 +28,7 @@ If you find this work helpful in your research, please cite:
 
 ### 2D examples
 
-#### 1) Campos data in Figure 9 (seismic data was provided by Dr. Michael Hudec)
+#### 1) Campos data in Figure 9 (seismic data was provided by [Dr. Michael Hudec](http://www.beg.utexas.edu/people/michael-hudec))
 Dimensions: n1=300, n2=550
 
 Data type:  binary with BIG_ENDIAN
@@ -53,7 +53,7 @@ Thinned OSV fault: ./data/2d/campos/fvt.dat
   input 1-linearity (left) and output optimal path voting result (right)
 </p>
 
-#### 2) Costa Rica data in Figure 10 (acquired in the subduction zone, Costa Rica Margin, provided by Nathan Bangs)
+#### 2) Costa Rica data in Figure 10 (acquired in the subduction zone, Costa Rica Margin, provided by [Dr. Nathan Bangs](https://ig.utexas.edu/staff/nathan-bangs/))
 
 Dimensions: n1=210, n2=825
 
