@@ -7,7 +7,7 @@ for 2D and 3D horizon extraction that is discussed in our Geophysics paper
 
 If you find this work helpful in your research, please cite:
 
-    @article{wu2018least,
+    @article{wu2018automatic,
         author = {Xinming Wu and Sergey Fomel},
         title = {Automatic fault interpretation with optimal surface voting},
         journal = {GEOPHYSICS},
