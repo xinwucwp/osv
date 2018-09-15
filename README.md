@@ -97,7 +97,16 @@ OSV fault: fv.dat; Fault likelihood: fl.dat
 </p>
 
 #### 2) Clyde data in Figures 14 and 15 (provided by Clyde through Paradigm)
+The datasets can be downloaded from:
+https://drive.google.com/open?id=10x1uO-GBJekmD2wS7S6VFbVsrxGXzMCC
+
 Dimensions: n1=400, n2=801, n3=300
+
+Data type:binary with BIG_ENDIAN
+
+Seismic: gx.dat
+
+OSV fault: fv.dat
 
 <p align="left">
   <img src="png/3d/clyde/seis.png" width="445px" height="350px"/>
