@@ -99,6 +99,15 @@ OSV fault: fv.dat; Fault likelihood: fl.dat
 #### 2) Clyde data in Figures 14 and 15 (provided by Clyde through Paradigm)
 Dimensions: n1=400, n2=801, n3=300
 
+<p align="left">
+  <img src="png/3d/clyde/seis.png" width="445px" height="350px"/>
+  <img src="png/3d/clyde/ep.png" width="445px" height="350px"/>
+</p>
+<p align="left">
+  <img src="png/3d/clyde/fl.png" width="445px" height="350px"/>
+  <img src="png/3d/clyde/fv.png" width="445px" height="350px"/>
+</p>
+
 
 #### 3) Costa Rica data in Figure 16 (acquired in the subduction zone, Costa Rica Margin, provided by Nathan Bangs)
 The datasets can be downloaded from: https://drive.google.com/open?id=1fjZuonXYc55ytiKiFboUVkQWVRbht0yQ
@@ -110,6 +119,8 @@ Data type:binary with BIG_ENDIAN
 Seismic: gs.dat;   
 
 OSV fault: fv.dat; 
+
+Thinned OSV fault: fvt.dat; 
 
 <p align="left">
   <img src="png/3d/crf/sub1/seis.png" width="445px" height="350px"/>
