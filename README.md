@@ -41,17 +41,17 @@ Thinned OSV fault: ./data/2d/campos/fvt.dat
 
 <p align="left">
   <img src="png/2d/campos/gx.png" width="445px" height="300px"/>
-  <img src="png/2d/campos/el.png" width="445px" height="300px"/>
+  <img src="png/2d/campos/fl.png" width="445px" height="300px"/>
 </p>
 <p align="center">
-  seismic image (left) and 1-linearity (right)
+  seismic image (left) and fault likelihood (Hale, 2013; Wu and Hale, 2016)
 </p>
 <p align="left">
-  <img src="png/2d/campos/fl.png" width="445px" height="300px"/>
+  <img src="png/2d/campos/el.png" width="445px" height="300px"/>
   <img src="png/2d/campos/fv.png" width="445px" height="300px"/>
 </p>
 <p align="center">
-  fault likelihood (Hale, 2013; Wu and Hale, 2016) and optimal voting result (right)
+  input 1-linearity (left) and output optimal voting result (right)
 </p>
 
 #### 2) Costa Rica data in Figure 10 (acquired in the subduction zone, Costa Rica Margin, provided by Nathan Bangs)
