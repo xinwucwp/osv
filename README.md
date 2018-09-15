@@ -112,11 +112,11 @@ Seismic: gs.dat;
 OSV fault: fv.dat; 
 
 <p align="left">
-  <img src="png/3d/crf/sub1/gx.png" width="445px" height="350px"/>
+  <img src="png/3d/crf/sub1/seis.png" width="445px" height="350px"/>
   <img src="png/3d/crf/sub1/fvt.png" width="445px" height="350px"/>
 </p>
 <p align="left">
-  <img src="png/3d/crf/sub3/gx.png" width="445px" height="350px"/>
+  <img src="png/3d/crf/sub3/seis.png" width="445px" height="350px"/>
   <img src="png/3d/crf/sub3/fvt.png" width="445px" height="350px"/>
 </p>
 ---
