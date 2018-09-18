@@ -1,0 +1,29 @@
+apply plugin: 'java'
+
+defaultTasks 'compileJava'
+defaultTasks 'jar'
+
+description = "Optimal surface voting"
+sourceCompatibility = 1.8
+
+sourceSets {
+  main {
+    output.classesDir = 'build/classes'
+    output.resourcesDir = output.classesDir
+    java {
+      srcDir 'src'
+      exclude '**/new/**','**/old/**'
+    }
+  }
+}
+
+jar {
+  baseName 'osv'
+  manifest {
+    attributes 'Implementation-Title': project.description
+  }
+}
+
+dependencies {
+  compile fileTree('libs') // jars used in research, not in the Mines JTK
+}
