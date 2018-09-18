@@ -93,9 +93,15 @@ Dimensions: n1=100, n2=400, n3=420;
 
 Data type:binary with BIG_ENDIAN
 
-Seismic: xs.dat;   Input planarity: ep.dat
+Seismic: xs.dat;   
 
-OSV fault: fv.dat; Fault likelihood: fl.dat
+Input planarity: ep.dat
+
+Output OSV fault: fv.dat
+
+Thinned OSV fault: fvt.dat
+
+Fault likelihood: fl.dat
 
 <p align="left">
   <img src="png/3d/f3d/seis.png" width="445px" height="350px"/>
