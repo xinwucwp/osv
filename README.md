@@ -114,7 +114,15 @@ Fault likelihood: fl.dat
   <img src="png/3d/f3d/fv.png" width="445px" height="350px"/>
 </p>
 <p align="center">
-  input 1-planarity (left) and output optimal surface voting result (right)
+  input 1-planarity (left) and output optimal surface voting (OSV) fault (right)
+</p>
+
+<p align="left">
+  <img src="png/3d/f3d/fvt.png" width="445px" height="350px"/>
+  <img src="png/3d/f3d/skinv.png" width="445px" height="350px"/>
+</p>
+<p align="center">
+  thinned OSV fault (left) and automatic fault surfaces colored by fault strike (right)
 </p>
 
 #### 2) Clyde data in Figures 14 and 15 (provided by Clyde through Paradigm)
