@@ -151,6 +151,13 @@ OSV fault: fv.dat
   input 1-planarity (left) and output OSV fault (right)
 </p>
 
+<p align="left">
+  <img src="png/3d/clyde/fvt.png" width="445px" height="350px"/>
+  <img src="png/3d/clyde/skinv.png" width="445px" height="350px"/>
+</p>
+<p align="center">
+  thinned OSV fault (left) and automatic fault surfaces colored by fault strike (right)
+</p>
 
 #### 3) Costa Rica data in Figure 16 (acquired in the subduction zone, Costa Rica Margin, provided by Nathan Bangs)
 The datasets can be downloaded from: https://drive.google.com/open?id=1fjZuonXYc55ytiKiFboUVkQWVRbht0yQ
