@@ -148,7 +148,7 @@ OSV fault: fv.dat
   <img src="png/3d/clyde/fv.png" width="445px" height="350px"/>
 </p>
 <p align="center">
-  input 1-planarity (left) and output optimal surface voting result (right)
+  input 1-planarity (left) and output OSV fault (right)
 </p>
 
 
@@ -170,7 +170,7 @@ Thinned OSV fault: fvt.dat;
   <img src="png/3d/crf/sub1/fvt.png" width="445px" height="350px"/>
 </p>
 <p align="center">
-  seismic image (left) and output optimal surface voting result (right)
+  seismic image (left) and thinned OSV fault (right)
 </p>
 
 <p align="left">
@@ -178,7 +178,7 @@ Thinned OSV fault: fvt.dat;
   <img src="png/3d/crf/sub3/fvt.png" width="445px" height="350px"/>
 </p>
 <p align="center">
-  seismic image (left) and output optimal surface voting result (right)
+  seismic image (left) and thinned OSV fault (right)
 </p>
 
 ---
