@@ -43,8 +43,8 @@ OSV fault: ./data/2d/f3d/fv.dat
 Thinned OSV fault: ./data/2d/f3d/fvt.dat
 
 <p align="left">
-  <img src="png/2d/f3d/gx.png" width="445px" height="300px"/>
-  <img src="png/2d/f3d/em.png" width="445px" height="300px"/>
+  <img src="png/2d/f3d/seis.png" width="445px" height="300px"/>
+  <img src="png/2d/f3d/epm.png" width="445px" height="300px"/>
 </p>
 
 <p align="left">
