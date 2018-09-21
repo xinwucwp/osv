@@ -28,7 +28,31 @@ If you find this work helpful in your research, please cite:
 
 ### 2D examples
 
-#### 1) Campos data in Figure 9 (seismic data was provided by [Dr. Michael Hudec](http://www.beg.utexas.edu/people/michael-hudec))
+#### 1) F3 data in Figures 7 and 8 (provided by the Dutch Government through TNO and dGB Earth Sciences)
+
+Dimensions: n1=222, n2=440
+
+Data type:  binary with BIG_ENDIAN
+
+Seismic: ./data/2d/f3d/f3d75s.dat
+
+Linearity: ./data/2d/f3d/el.dat
+
+OSV fault: ./data/2d/f3d/fv.dat
+
+Thinned OSV fault: ./data/2d/f3d/fvt.dat
+
+<p align="left">
+  <img src="png/2d/campos/gx.png" width="445px" height="300px"/>
+  <img src="png/2d/campos/em.png" width="445px" height="300px"/>
+</p>
+
+<p align="left">
+  <img src="png/2d/campos/fv.png" width="445px" height="300px"/>
+  <img src="png/2d/campos/fvt.png" width="445px" height="300px"/>
+</p>
+
+#### 2) Campos data in Figure 9 (seismic data was provided by [Dr. Michael Hudec](http://www.beg.utexas.edu/people/michael-hudec))
 Dimensions: n1=300, n2=550
 
 Data type:  binary with BIG_ENDIAN
@@ -53,7 +77,7 @@ Thinned OSV fault: ./data/2d/campos/fvt.dat
   input 1-linearity (left) and output optimal path voting result (right)
 </p>
 
-#### 2) Costa Rica data in Figure 10 (acquired in the subduction zone, Costa Rica Margin, provided by [Dr. Nathan Bangs](https://ig.utexas.edu/staff/nathan-bangs/))
+#### 3) Costa Rica data in Figure 10 (acquired in the subduction zone, Costa Rica Margin, provided by [Dr. Nathan Bangs](https://ig.utexas.edu/staff/nathan-bangs/))
 
 Dimensions: n1=210, n2=825
 
