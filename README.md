@@ -30,7 +30,7 @@ If you find this work helpful in your research, please cite:
 
 #### 1) F3 data in Figures 7 and 8 (provided by the Dutch Government through TNO and dGB Earth Sciences)
 
-Dimensions: n1=222, n2=440
+Dimensions: n1=380, n2=591
 
 Data type:  binary with BIG_ENDIAN
 
