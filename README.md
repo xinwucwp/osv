@@ -34,9 +34,9 @@ Dimensions: n1=380, n2=591
 
 Data type:  binary with BIG_ENDIAN
 
-Seismic: ./data/2d/f3d/f3d75s.dat
+Seismic: ./data/2d/f3d/gx56.dat
 
-Linearity: ./data/2d/f3d/el.dat
+Linearity: ./data/2d/f3d/ep56.dat
 
 OSV fault: ./data/2d/f3d/fv.dat
 
@@ -47,7 +47,7 @@ Thinned OSV fault: ./data/2d/f3d/fvt.dat
   <img src="png/2d/f3d/epm.png" width="445px" height="300px"/>
 </p>
 <p align="center">
-  seismic time/depth slice (left) and 1-linearity (input for optimal path voting)
+  seismic time/depth slice (left) and 1-planarity (input for optimal path voting)
 </p>
 <p align="left">
   <img src="png/2d/f3d/fv.png" width="445px" height="300px"/>
