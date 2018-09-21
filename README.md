@@ -46,10 +46,15 @@ Thinned OSV fault: ./data/2d/f3d/fvt.dat
   <img src="png/2d/f3d/seis.png" width="445px" height="300px"/>
   <img src="png/2d/f3d/epm.png" width="445px" height="300px"/>
 </p>
-
+<p align="center">
+  seismic time/depth slice (left) and 1-linearity (input for optimal path voting)
+</p>
 <p align="left">
   <img src="png/2d/f3d/fv.png" width="445px" height="300px"/>
   <img src="png/2d/f3d/fvt.png" width="445px" height="300px"/>
+</p>
+<p align="center">
+  optimal path voting faults before (left) and after (right) thinning
 </p>
 
 #### 2) Campos data in Figure 9 (seismic data was provided by [Dr. Michael Hudec](http://www.beg.utexas.edu/people/michael-hudec))
@@ -74,7 +79,7 @@ Thinned OSV fault: ./data/2d/campos/fvt.dat
   <img src="png/2d/campos/fv.png" width="445px" height="300px"/>
 </p>
 <p align="center">
-  input 1-linearity (left) and output optimal path voting result (right)
+  input 1-linearity (left) and output optimal path voting faults (right)
 </p>
 
 #### 3) Costa Rica data in Figure 10 (acquired in the subduction zone, Costa Rica Margin, provided by [Dr. Nathan Bangs](https://ig.utexas.edu/staff/nathan-bangs/))
@@ -104,7 +109,7 @@ Thinned fault likelihood: ./data/2d/crf/flt.dat
   <img src="png/2d/crf/fvt.png" width="445px" height="200px"/>
 </p>
 <p align="center">
-  input 1-linearity (left) and output optimal path voting result (right)
+  input 1-linearity (left) and output optimal path voting faults (right)
 </p>
 
 ---
