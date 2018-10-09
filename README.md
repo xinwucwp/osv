@@ -42,6 +42,11 @@ Automatically construct fault skins/surfaces from a final voting score map
 A simple linked data structure to represent a fault surface as discussed 
 by [Wu and Hale (2016)](http://www.jsg.utexas.edu/wu/files/wu2016SeismicImageProcessingForFaults.pdf)
 
+### Run a demo
+1) download the [3D seismic data "xs.dat"](https://drive.google.com/open?id=1InfMvCSZWdJclykiTBIXDgV7HYdBj5_K) into the folder ./data/3d/f3d/
+
+2) go to ./src/osv/ and type ./jy demoF3d.py to run a test on the F3 dataset
+
 ---
 ## Examples
 
