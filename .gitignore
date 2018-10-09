@@ -12,8 +12,8 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 /data/3d/f3d/*.dat
-/src
-/build
-/libs
+#/src
+#/build
+#/libs
 /workbench.xmi
 /.gradle
