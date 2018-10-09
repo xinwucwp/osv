@@ -19,7 +19,28 @@ If you find this work helpful in your research, please cite:
         URL = {https://library.seg.org/doi/abs/10.1190/geo2018-0115.1},
     }
 
-### The source codes are coming soon. As people are asking for the test datasets in this paper, we decide to first share the datasets here before the source codes.
+### Summary
+
+Here are brief descriptions of key components:
+
+#### OptimalSurfaceVoter
+Computes optimal voting surfaces, voting scores and a final 3D voting score map.
+
+#### OptimalSurfaceVoter
+Computes optimal voting paths, voting scores and a final 2D voting score map.
+
+#### FaultOrientScanner2
+Quickly scan for approximate fault dips
+
+#### FaultOrientScanner3
+Quickly scan for approximate fault strikes and dips
+
+#### FaultSkinner
+Automatically construct fault skins/surfaces from a final voting score map
+
+#### FaultSkin
+A simple linked data structure to represent a fault surface as discussed 
+by [Wu and Hale (2016)](http://www.jsg.utexas.edu/wu/files/wu2016SeismicImageProcessingForFaults.pdf)
 
 ---
 ## Examples
