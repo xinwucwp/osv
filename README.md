@@ -21,6 +21,9 @@ If you find this work helpful in your research, please cite:
 
 ### Summary
 
+If you want to do more than browse the source code, you must first download 
+and build the package using [Gradle](https://gradle.org/).
+
 Here are brief descriptions of key components:
 
 #### OptimalSurfaceVoter
