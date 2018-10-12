@@ -1,6 +1,7 @@
 ## Automatic fault interpretation with optimal surface voting
 
-<font color="red"> This work will be presented at the 2018 SEG annual meeting:</font>
+- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+)
+'This work will be presented at the 2018 SEG annual meeting:'
 
 Presentation Date and Time: October 17, 2018 from 8:30 AM to 8:55 AM
 
