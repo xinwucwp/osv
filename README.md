@@ -1,11 +1,10 @@
 ## Automatic fault interpretation with optimal surface voting
 
-<font color="red"> This work will be presented at the 2018 SEG annual meeting:
+<font color="red"> This work will be presented at the 2018 SEG annual meeting:</font>
 
 Presentation Date and Time: October 17, 2018 from 8:30 AM to 8:55 AM
 
 Session Room: 210A (Anaheim Convention Center), in the Anaheim Convention Center
-</font>
 
 This repository contains computer programs written and used by 
 [Xinming Wu](http://www.jsg.utexas.edu/wu/) 
