@@ -87,7 +87,7 @@ public class OptimalSurfaceVoter {
    * points and follow globally maximum fault attribute values. 
    * We then consider all the computed surfaces as voters and define 
    * voting scores for each voter by using fault attribute values 
-   * smoothed along the surface voter. We further collect voting 
+   * smoothed along the surface voter. We further accumulate voting 
    * scores of all the voters to compute a voting score map as a 
    * new fault attribute image, where fault features (with high scores) 
    * are much cleaner, sharper, and more continuous than those in 

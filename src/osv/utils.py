@@ -56,6 +56,18 @@ def setupForSubset(name):
     #f1,f2,f3 = 0.472,0.0,0.0 # = 0.000,0.000,0.000
     f1,f2,f3 = 0.0,0.0,0.0 # = 0.000,0.000,0.000
     s1,s2,s3 = Sampling(n1,d1,f1),Sampling(n2,d2,f2),Sampling(n3,d3,f3)
+  elif name=="campos":
+    print "setupForSubset: campos"
+    pngDir = _pngdir+"3d/campos/"
+    seismicDir = _datdir+"3d/campos/"
+    n1,n2,n3 = 450,1950,1200
+    n1,n2,n3 = 300,600,400
+    d1,d2,d3 = 1.0,1.0,1.0 
+    #j1,j2,j3 = 344,0,0
+    #d1,d2,d3 = 0.004,0.025,0.024999 # (s,km,km)
+    #f1,f2,f3 = 0.472,0.0,0.0 # = 0.000,0.000,0.000
+    f1,f2,f3 = 0.0,0.0,0.0 # = 0.000,0.000,0.000
+    s1,s2,s3 = Sampling(n1,d1,f1),Sampling(n2,d2,f2),Sampling(n3,d3,f3)
 
   elif name=="swj":
     print "setupForSubset: swj"
