@@ -601,7 +601,8 @@ public class FaultOrientScanner3 {
     return new float[][][][]{f,p,t};
   }
 
-    // Sampling of angles depends on extent of smoothing.
+  /*
+  // Sampling of angles depends on extent of smoothing.
   public Sampling makePhiSampling(double phiMin, double phiMax) {
     return angleSampling(_sigmaPhi,phiMin,phiMax);
   }
@@ -617,12 +618,12 @@ public class FaultOrientScanner3 {
     da = (amax>amin)?(amax-amin)/(na-1):1.0;
     return new Sampling(na,da,fa);
   }
+  */
 
-  /*
   // Sampling of angles depends on extent of smoothing.
   private Sampling makePhiSampling(double phiMin, double phiMax) {
-    //return new Sampling(18,20,0);
-    return angleSampling(_sigmaPhi,phiMin,phiMax);
+    return new Sampling(18,20,0);
+    //return angleSampling(_sigmaPhi,phiMin,phiMax);
   }
   private Sampling makeThetaSampling(double amin, double amax) {
     double fa = amin;
@@ -641,7 +642,6 @@ public class FaultOrientScanner3 {
     da = (amax>amin)?(amax-amin)/(na-1):1.0;
     return new Sampling(na,da,fa);
   }
-  */
 
   // Numbers of samples in 3D arrays (arrays of arrays of arrays),
   // which after rotation may contain some null arrays.
