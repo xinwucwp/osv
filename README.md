@@ -17,7 +17,7 @@ If you find this work helpful in your research, please cite:
         title = {Automatic fault interpretation with optimal surface voting},
         journal = {GEOPHYSICS},
         volume = {83},
-        number = {5},
+        issue = {5},
         pages = {O67-O82},
         year = {2018},
         doi = {10.1190/GEO2018-0115.1},
