@@ -28,8 +28,8 @@ def setupForSubset(name):
   if name=="f3d2d":
     """ 2d fault """
     print "setupForSubset: 2d fault"
-    pngDir = _pngdir+"fault/2d/f3d/"
-    seismicDir = _datdir+"fault/2d/f3d/"
+    pngDir = _pngdir+"2d/f3d2d/"
+    seismicDir = _datdir+"2d/f3d2d/"
     n1,n2 = 222,440 #f3d75s
     d1,d2 = 1,1 # (s,km/s)
     f1,f2 = 0,0
@@ -68,7 +68,6 @@ def setupForSubset(name):
     #f1,f2,f3 = 0.472,0.0,0.0 # = 0.000,0.000,0.000
     f1,f2,f3 = 0.0,0.0,0.0 # = 0.000,0.000,0.000
     s1,s2,s3 = Sampling(n1,d1,f1),Sampling(n2,d2,f2),Sampling(n3,d3,f3)
-
   elif name=="swj":
     print "setupForSubset: swj"
     pngDir = _pngdir+"swj/"
@@ -91,6 +90,15 @@ def setupForSubset(name):
     #f1,f2,f3 = 0.472,0.0,0.0 # = 0.000,0.000,0.000
     f1,f2,f3 = 0.0,0.0,0.0 # = 0.000,0.000,0.000
     s1,s2,s3 = Sampling(n1,d1,f1),Sampling(n2,d2,f2),Sampling(n3,d3,f3)
+  elif name=="f3d2d":
+    """ 2d fault """
+    print "setupForSubset: 2d fault"
+    pngDir = _pngdir+"2d/f3d2d/"
+    seismicDir = _datdir+"2d/f3d2d/"
+    n1,n2 = 222,440 #f3d75s
+    d1,d2 = 1,1 # (s,km/s)
+    f1,f2 = 0,0
+    s1,s2,s3 = Sampling(n1,d1,f1),Sampling(n2,d2,f2),Sampling(n2,d2,f2)
   else:
     print "unrecognized subset:",name
     System.exit
