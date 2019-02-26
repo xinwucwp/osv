@@ -22,8 +22,8 @@ flfile = "fl"
 ptfile = "pt"
 fvfile = "fv"
 fvtfile = "fvt"
-pngDir = getPngDir()
 pngDir = None
+pngDir = getPngDir()
 plotOnly = False
 
 def main(args):
@@ -64,9 +64,10 @@ def goPathVoting():
     writeImage(fvtfile,fvt)
   else:
     fv = readImage(fvfile)
-  plot(gx,cmin=-2,cmax=2,label="Amplitude")
-  plot(gx,fv, cmin=0.5,cmax=1.0,cmap=jetRamp(1.0),label="Path voting")
-  plot(gx,fvt,cmin=0.7,cmax=1.0,cmap=jetFillExceptMin(1.0),neareast=True,label="Path voting")
+  plot(gx,cmin=-2,cmax=2,label="Amplitude",png="seis")
+  plot(gx,fv, cmin=0.5,cmax=1.0,cmap=jetRamp(1.0),label="Voting scores",png="fv")
+  plot(gx,fvt,cmin=0.7,cmax=1.0,cmap=jetFillExceptMin(1.0),neareast=True,
+          label="Thinned voting scores",png="fvt")
 
 
 def gain(x):
