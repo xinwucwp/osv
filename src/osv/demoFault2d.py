@@ -1,6 +1,6 @@
 #############################################################################
 """
-Demo of dynamic warping for automatic picking
+Demo of dynamic programming for automatic picking
 Author: Xinming Wu, University of Texas at Austin
 Version: 2016.06.01
 """
@@ -27,8 +27,8 @@ pngDir = getPngDir()
 plotOnly = False
 
 def main(args):
-  #goLinearity()
-  #goFaultOrientScan()
+  goLinearity()
+  goFaultOrientScan()
   goPathVoting()
 def goLinearity():
   gx = readImage(gxfile)
