@@ -77,15 +77,15 @@ OSV fault: ./data/2d/f3d/fv.dat
 Thinned OSV fault: ./data/2d/f3d/fvt.dat
 
 <p align="left">
-  <img src="png/2d/f3d/seis.png" width="440px" height="300px"/>
-  <img src="png/2d/f3d/epm.png" width="440px" height="300px"/>
+  <img src="png/2d/f3d/seis.png" width="400px" height="300px"/>
+  <img src="png/2d/f3d/epm.png" width="400px" height="300px"/>
 </p>
 <p align="center">
   seismic time/depth slice (left) and 1-planarity (input for optimal path voting)
 </p>
 <p align="left">
-  <img src="png/2d/f3d/fv.png" width="445px" height="300px"/>
-  <img src="png/2d/f3d/fvt.png" width="445px" height="300px"/>
+  <img src="png/2d/f3d/fv.png" width="400px" height="300px"/>
+  <img src="png/2d/f3d/fvt.png" width="400px" height="300px"/>
 </p>
 <p align="center">
   optimal path voting faults before (left) and after (right) thinning
@@ -103,14 +103,14 @@ OSV fault: ./data/2d/campos/fv.dat
 Thinned OSV fault: ./data/2d/campos/fvt.dat
 
 <p align="left">
-  <img src="png/2d/campos/gx.png" width="445px" height="300px"/>
-  <img src="png/2d/campos/fl.png" width="445px" height="300px"/>
+  <img src="png/2d/campos/gx.png" width="400px" height="300px"/>
+  <img src="png/2d/campos/fl.png" width="400px" height="300px"/>
 </p>
 
    ---------------------seismic image (left) and fault likelihood ([Hale, 2013](https://library.seg.org/doi/10.1190/geo2012-0331.1); [Wu and Hale, 2016](https://library.seg.org/doi/10.1190/geo2015-0380.1))-----------------------
 <p align="left">
-  <img src="png/2d/campos/el.png" width="445px" height="300px"/>
-  <img src="png/2d/campos/fv.png" width="445px" height="300px"/>
+  <img src="png/2d/campos/el.png" width="400px" height="300px"/>
+  <img src="png/2d/campos/fv.png" width="400px" height="300px"/>
 </p>
 <p align="center">
   input 1-linearity (left) and output optimal path voting faults (right)
@@ -133,14 +133,14 @@ Fault likelihood: ./data/2d/crf/fl.dat
 Thinned fault likelihood: ./data/2d/crf/flt.dat
 
 <p align="left">
-  <img src="png/2d/crf/gx.png" width="445px" height="200px"/>
-  <img src="png/2d/crf/fl.png" width="445px" height="200px"/>
+  <img src="png/2d/crf/gx.png" width="400px" height="200px"/>
+  <img src="png/2d/crf/fl.png" width="400px" height="200px"/>
 </p>
 
    ---------------------seismic image (left) and fault likelihood ([Hale, 2013](https://library.seg.org/doi/10.1190/geo2012-0331.1); [Wu and Hale, 2016](https://library.seg.org/doi/10.1190/geo2015-0380.1))-----------------------
 <p align="left">
-  <img src="png/2d/crf/el.png" width="445px" height="200px"/>
-  <img src="png/2d/crf/fvt.png" width="445px" height="200px"/>
+  <img src="png/2d/crf/el.png" width="400px" height="200px"/>
+  <img src="png/2d/crf/fvt.png" width="400px" height="200px"/>
 </p>
 <p align="center">
   input 1-linearity (left) and output optimal path voting faults (right)
@@ -167,22 +167,22 @@ Thinned OSV fault: fvt.dat
 Fault likelihood: fl.dat
 
 <p align="left">
-  <img src="png/3d/f3d/seis.png" width="445px" height="350px"/>
-  <img src="png/3d/f3d/fl.png" width="445px" height="350px"/>
+  <img src="png/3d/f3d/seis.png" width="400px" height="350px"/>
+  <img src="png/3d/f3d/fl.png" width="400px" height="350px"/>
 </p>
 
    ---------------------seismic image (left) and fault likelihood ([Hale, 2013](https://library.seg.org/doi/10.1190/geo2012-0331.1); [Wu and Hale, 2016](https://library.seg.org/doi/10.1190/geo2015-0380.1))-----------------------
 <p align="left">
-  <img src="png/3d/f3d/ep.png" width="445px" height="350px"/>
-  <img src="png/3d/f3d/fv.png" width="445px" height="350px"/>
+  <img src="png/3d/f3d/ep.png" width="400px" height="350px"/>
+  <img src="png/3d/f3d/fv.png" width="400px" height="350px"/>
 </p>
 <p align="center">
   input 1-planarity (left) and output optimal surface voting (OSV) fault (right)
 </p>
 
 <p align="left">
-  <img src="png/3d/f3d/fvt.png" width="445px" height="350px"/>
-  <img src="png/3d/f3d/skinv.png" width="445px" height="350px"/>
+  <img src="png/3d/f3d/fvt.png" width="400px" height="350px"/>
+  <img src="png/3d/f3d/skinv.png" width="400px" height="350px"/>
 </p>
 <p align="center">
   thinned OSV fault (left) and automatic fault surfaces colored by fault strike (right)
@@ -201,22 +201,22 @@ Seismic: gx.dat
 OSV fault: fv.dat
 
 <p align="left">
-  <img src="png/3d/clyde/seis.png" width="445px" height="350px"/>
-  <img src="png/3d/clyde/fl.png" width="445px" height="350px"/>
+  <img src="png/3d/clyde/seis.png" width="400px" height="350px"/>
+  <img src="png/3d/clyde/fl.png" width="400px" height="350px"/>
 </p>
 
    ---------------------seismic image (left) and fault likelihood ([Hale, 2013](https://library.seg.org/doi/10.1190/geo2012-0331.1); [Wu and Hale, 2016](https://library.seg.org/doi/10.1190/geo2015-0380.1))-----------------------
 <p align="left">
-  <img src="png/3d/clyde/ep.png" width="445px" height="350px"/>
-  <img src="png/3d/clyde/fv.png" width="445px" height="350px"/>
+  <img src="png/3d/clyde/ep.png" width="400px" height="350px"/>
+  <img src="png/3d/clyde/fv.png" width="400px" height="350px"/>
 </p>
 <p align="center">
   input 1-planarity (left) and output OSV fault (right)
 </p>
 
 <p align="left">
-  <img src="png/3d/clyde/fvt.png" width="445px" height="350px"/>
-  <img src="png/3d/clyde/skinv.png" width="445px" height="350px"/>
+  <img src="png/3d/clyde/fvt.png" width="400px" height="350px"/>
+  <img src="png/3d/clyde/skinv.png" width="400px" height="350px"/>
 </p>
 <p align="center">
   thinned OSV fault (left) and automatic fault surfaces colored by fault strike (right)
@@ -236,16 +236,16 @@ OSV fault: fv.dat;
 Thinned OSV fault: fvt.dat; 
 
 <p align="left">
-  <img src="png/3d/crf/sub1/seis.png" width="445px" height="350px"/>
-  <img src="png/3d/crf/sub1/fvt.png" width="445px" height="350px"/>
+  <img src="png/3d/crf/sub1/seis.png" width="400px" height="350px"/>
+  <img src="png/3d/crf/sub1/fvt.png" width="400px" height="350px"/>
 </p>
 <p align="center">
   seismic image (left) and thinned OSV fault (right)
 </p>
 
 <p align="left">
-  <img src="png/3d/crf/sub3/seis.png" width="445px" height="350px"/>
-  <img src="png/3d/crf/sub3/fvt.png" width="445px" height="350px"/>
+  <img src="png/3d/crf/sub3/seis.png" width="400px" height="350px"/>
+  <img src="png/3d/crf/sub3/fvt.png" width="400px" height="350px"/>
 </p>
 <p align="center">
   seismic image (left) and thinned OSV fault (right)
