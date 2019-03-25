@@ -77,8 +77,8 @@ OSV fault: ./data/2d/f3d/fv.dat
 Thinned OSV fault: ./data/2d/f3d/fvt.dat
 
 <p align="left">
-  <img src="png/2d/f3d/seis.png" width="400px" height="300px"/>
-  <img src="png/2d/f3d/epm.png" width="400px" height="300px"/>
+  <img src="png/2d/f3d/seis.png" width="440px" height="300px"/>
+  <img src="png/2d/f3d/epm.png" width="440px" height="300px"/>
 </p>
 <p align="center">
   seismic time/depth slice (left) and 1-planarity (input for optimal path voting)
