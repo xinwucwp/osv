@@ -558,10 +558,10 @@ public class OptimalSurfaceVoter {
   }
 
  /**
-   * Smooths the specified shifts. Smoothing can be performed 
+   * Smooths the specified surface. Smoothing can be performed 
    * in place; input and output arrays can be the same array.
-   * @param u input array of shifts to be smoothed.
-   * @param us output array of smoothed shifts.
+   * @param u input array of surface to be smoothed.
+   * @param us output array of smoothed surface.
    */
   public void smoothSurface(float[][] u, float[][] us) {
     if (_ref1!=null) {
@@ -574,10 +574,10 @@ public class OptimalSurfaceVoter {
   }
 
     /**
-   * Smooths (and normalizes) alignment errors.
+   * Smooths (and normalizes) fault attributes.
    * Input and output arrays can be the same array.
-   * @param e input array[n2][n1][nl] of alignment errors.
-   * @param es output array[n2][n1][nl] of smoothed errors.
+   * @param e input array[n2][n1][nl] of fault attributes.
+   * @param es output array[n2][n1][nl] of smoothed fault attributes.
    */
   public void smoothFaultAttributes(float[][][] fx, float[][][] fs) {
     smoothFaultAttributes1(_bstrain1,fx,fs);
@@ -585,18 +585,18 @@ public class OptimalSurfaceVoter {
   }
 
   /**
-   * Accumulates alignment errors in forward direction.
-   * @param e input array of alignment errors.
-   * @param d output array of accumulated errors.
+   * Accumulates fault attributes in forward direction.
+   * @param e input array of fault attributes.
+   * @param d output array of accumulated fault attributes.
    */
   public void accumulateForward(float[][] e, float[][] d) {
     accumulate( 1,_bstrain1,e,d);
   }
 
   /**
-   * Returns shifts found by backtracking in reverse.
-   * @param d array of accumulated errors.
-   * @param e array of alignment errors.
+   * Returns the optimal path found by backtracking in reverse.
+   * @param d array of accumulated fault attributes.
+   * @param e array of fault attributes.
    */
   public float[] backtrackReverse(float[][] d, float[][] e) {
     float[] u = new float[d.length];
@@ -605,10 +605,10 @@ public class OptimalSurfaceVoter {
   }
 
     /**
-   * Computes shifts by backtracking in reverse direction.
-   * @param d input array of accumulated errors.
-   * @param e input array of alignment errors.
-   * @param u output array of shifts.
+   * Computes a path by backtracking in reverse direction.
+   * @param d input array of accumulated fault attributes.
+   * @param e input array of fault attributes.
+   * @param u output array of the path.
    */
   public void backtrackReverse(float[][] d, float[][] e, float[] u) {
     backtrack(-1,_bstrain1,_lmin,d,e,u);
@@ -696,15 +696,15 @@ public class OptimalSurfaceVoter {
     return mul(fs,1f/max(fs));
   }
   /**
-   * Finds shifts by backtracking in accumulated alignment errors.
+   * Finds the optimal path by backtracking in accumulated fault attributes.
    * Backtracking must be performed in the direction opposite to
    * that for which accumulation was performed.
    * @param dir backtrack direction, positive or negative.
    * @param b sample offset used to constrain changes in lag.
    * @param lmin minimum lag corresponding to lag index zero.
-   * @param d input array[ni][nl] of accumulated errors.
-   * @param e input array[ni][nl] of alignment errors.
-   * @param u output array[ni] of computed shifts.
+   * @param d input array[ni][nl] of accumulated fault attributes.
+   * @param e input array[ni][nl] of fault attributes.
+   * @param u output array[ni] of the picked path.
    */
   private static void backtrack(
     int dir, int b, int lmin, float[][] d, float[][] e, float[] u) 
@@ -763,8 +763,8 @@ public class OptimalSurfaceVoter {
   /**
    * Smooths fault attributes in 1st dimension.
    * @param b strain parameter in 1st dimension.
-   * @param e input array of alignment errors to be smooothed.
-   * @param es output array of smoothed alignment errors.
+   * @param e input array of fault attributes to be smooothed.
+   * @param es output array of smoothed fault attributes.
    */
   private static void smoothFaultAttributes1(
     int b, float[][][] e, float[][][] es) {
@@ -778,10 +778,10 @@ public class OptimalSurfaceVoter {
 
     /**
    * Smooths fault attributes in 1st dimension.
-   * Does not normalize errors after smoothing.
+   * Does not normalize attributes after smoothing.
    * @param b strain parameter in 1st dimension.
-   * @param e input array of alignment errors to be smooothed.
-   * @param es output array of smoothed alignment errors.
+   * @param e input array of fault attributes to be smooothed.
+   * @param es output array of smoothed fault attributes.
    */
   private static void smoothFaultAttributes1(
     int b, float[][] e, float[][] es) {
@@ -799,8 +799,8 @@ public class OptimalSurfaceVoter {
  /**
    * Smooths fault attributes in 2nd dimension.
    * @param b strain parameter in 2nd dimension.
-   * @param e input array of alignment errors to be smooothed.
-   * @param es output array of smoothed alignment errors.
+   * @param e input array of fault attributes to be smooothed.
+   * @param es output array of smoothed fault attributes.
    */
   private static void smoothFaultAttributes2(
     int b, float[][][] e, float[][][] es) {
@@ -826,11 +826,11 @@ public class OptimalSurfaceVoter {
   }
 
   /**
-   * Non-linear accumulation of alignment errors.
+   * Non-linear accumulation of fault attributes.
    * @param dir accumulation direction, positive or negative.
    * @param b sample offset used to constrain changes in lag.
-   * @param e input array[ni][nl] of alignment errors.
-   * @param d output array[ni][nl] of accumulated errors.
+   * @param e input array[ni][nl] of fault attributes.
+   * @param d output array[ni][nl] of accumulated fault attributes.
    */
   private static void accumulate(int dir, int b, float[][] e, float[][] d) {
     int nl = e[0].length;
@@ -895,10 +895,10 @@ public class OptimalSurfaceVoter {
   private int _esmooth = 1; // number of nonlinear smoothings of attributes
   private int _bstrain1 = 4; // inverse of bound on slope in 1st dimension
   private int _bstrain2 = 4; // inverse of bound on slope in 2nd dimension
-  private double _usmooth1 = 2.0; // extent of smoothing shifts in 1st dim
-  private double _usmooth2 = 2.0; // extent of smoothing shifts in 2nd dim
-  private RecursiveExponentialFilter _ref1; // for smoothing shifts
-  private RecursiveExponentialFilter _ref2; // for smoothing shifts
+  private double _usmooth1 = 2.0; // extent of smoothing surface in 1st dim
+  private double _usmooth2 = 2.0; // extent of smoothing surface in 2nd dim
+  private RecursiveExponentialFilter _ref1; // for smoothing surface
+  private RecursiveExponentialFilter _ref2; // for smoothing surface
   private RecursiveGaussianFilter _rgf;
   private static final float NO_STRIKE = -0.00001f;
   private static final float NO_DIP    = -0.00001f;

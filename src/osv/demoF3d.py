@@ -47,8 +47,8 @@ sigmaPhi,sigmaTheta=8,8
 
 
 def main(args):
-  goPlanar()
-  goFaultOrientScan()
+  #goPlanar()
+  #goFaultOrientScan()
   goSurfaceVoting()
   goFaultSurfaces()
 
