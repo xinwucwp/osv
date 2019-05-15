@@ -22,9 +22,9 @@ import static edu.mines.jtk.util.ArrayMath.*;
 public class OptimalPathVoter {
 
   /**
-   * Constructs a dynamic warping for specified bounds on shifts.
-   * @param shiftMin lower bound on shift u.
-   * @param shiftMax upper bound on shift u.
+   * Constructs a parallel optimal path voter.
+   * @param ru windwow in fault normal direction.
+   * @param rv windwow in fault strike direction.
    */
   public OptimalPathVoter(int ru, int rv) {
     _ru = ru;
@@ -38,9 +38,8 @@ public class OptimalPathVoter {
   }
 
   /**
-   * Sets bound on fault surface slopes in 1st and 2nd dimensions.
-   * @param strainMax1 bound on strain in the 1st dimension.
-   * @param strainMax2 bound on strain in the 2nd dimension.
+   * Sets bound on fault curve slopes in strike direction.
+   * @param strainMax1 bound on slopes in the fault strike direction.
    */
   public void setStrainMax(double strainMax1) {
     Check.argument(strainMax1<=1.0,"strainMax1<=1.0");
@@ -58,12 +57,11 @@ public class OptimalPathVoter {
   }
 
     /**
-   * Sets extents of smoothing filters used to smooth an extracted fault surface.
+   * Sets extents of smoothing filters used to smooth an extracted fault path.
    * Half-widths of smoothing filters are inversely proportional to
    * strain limits, and are scaled by the specified factors. Default 
    * factors are zero, for no smoothing.
-   * @param usmooth1 extent of smoothing filter in 1st dimension.
-   * @param usmooth2 extent of smoothing filter in 2nd dimension.
+   * @param usmooth1 extent of smoothing filter.
    */
   public void setPathSmoothing(double usmooth1) {
     _usmooth1 = usmooth1;
@@ -530,10 +528,10 @@ public class OptimalPathVoter {
 
 
  /**
-   * Smooths the specified shifts. Smoothing can be performed 
+   * Smooths the specified path. Smoothing can be performed 
    * in place; input and output arrays can be the same array.
-   * @param u input array of shifts to be smoothed.
-   * @param us output array of smoothed shifts.
+   * @param u input array of the path to be smoothed.
+   * @param us output array of smoothed path.
    */
   public void smoothPath(float[] u, float[] us) {
     if (_ref1!=null) {
@@ -542,28 +540,28 @@ public class OptimalPathVoter {
   }
 
     /**
-   * Smooths (and normalizes) alignment errors.
+   * Smooths (and normalizes) fault attributes.
    * Input and output arrays can be the same array.
-   * @param e input array[n2][n1][nl] of alignment errors.
-   * @param es output array[n2][n1][nl] of smoothed errors.
+   * @param e input array[n2][n1][nl] of fault attributes.
+   * @param es output array[n2][n1][nl] of smoothed fault attributes.
    */
   public void smoothFaultAttributes(float[][] fx, float[][] fs) {
     smoothFaultAttributes1(_bstrain1,fx,fs);
   }
 
   /**
-   * Accumulates alignment errors in forward direction.
-   * @param e input array of alignment errors.
-   * @param d output array of accumulated errors.
+   * Accumulates fault attributes in forward direction.
+   * @param e input array of fault attributes.
+   * @param d output array of accumulated fault attributes.
    */
   public void accumulateForward(float[][] e, float[][] d) {
     accumulate( 1,_bstrain1,e,d);
   }
 
   /**
-   * Returns shifts found by backtracking in reverse.
-   * @param d array of accumulated errors.
-   * @param e array of alignment errors.
+   * Returns the optimal path found by backtracking in reverse.
+   * @param d array of accumulated fault attributes.
+   * @param e array of fault attributes.
    */
   public float[] backtrackReverse(float[][] d, float[][] e) {
     float[] u = new float[d.length];
@@ -572,10 +570,10 @@ public class OptimalPathVoter {
   }
 
     /**
-   * Computes shifts by backtracking in reverse direction.
-   * @param d input array of accumulated errors.
-   * @param e input array of alignment errors.
-   * @param u output array of shifts.
+   * Computes the optimal path by backtracking in reverse direction.
+   * @param d input array of accumulated fault attributes.
+   * @param e input array of fault attributes.
+   * @param u output array of the picked path.
    */
   public void backtrackReverse(float[][] d, float[][] e, float[] u) {
     backtrack(-1,_bstrain1,_lmin,d,e,u);
@@ -716,15 +714,15 @@ public class OptimalPathVoter {
   }
 
   /**
-   * Finds shifts by backtracking in accumulated alignment errors.
+   * Finds the optimal path by backtracking in accumulated fault attributes.
    * Backtracking must be performed in the direction opposite to
    * that for which accumulation was performed.
    * @param dir backtrack direction, positive or negative.
    * @param b sample offset used to constrain changes in lag.
    * @param lmin minimum lag corresponding to lag index zero.
-   * @param d input array[ni][nl] of accumulated errors.
-   * @param e input array[ni][nl] of alignment errors.
-   * @param u output array[ni] of computed shifts.
+   * @param d input array[ni][nl] of accumulated fault attributes.
+   * @param e input array[ni][nl] of fault attributes.
+   * @param u output array[ni] of computed path.
    */
   private static void backtrack(
     int dir, int b, int lmin, float[][] d, float[][] e, float[] u) 
@@ -782,10 +780,10 @@ public class OptimalPathVoter {
 
   /**
    * Smooths fault attributes in 1st dimension.
-   * Does not normalize errors after smoothing.
+   * Does not normalize fault attributes after smoothing.
    * @param b strain parameter in 1st dimension.
-   * @param e input array of alignment errors to be smooothed.
-   * @param es output array of smoothed alignment errors.
+   * @param e input array of fault attributes to be smooothed.
+   * @param es output array of smoothed fault attributes.
    */
   private static void smoothFaultAttributes1(
     int b, float[][] e, float[][] es) {
@@ -801,11 +799,11 @@ public class OptimalPathVoter {
   }
 
   /**
-   * Non-linear accumulation of alignment errors.
+   * Non-linear accumulation of fault attributes.
    * @param dir accumulation direction, positive or negative.
    * @param b sample offset used to constrain changes in lag.
-   * @param e input array[ni][nl] of alignment errors.
-   * @param d output array[ni][nl] of accumulated errors.
+   * @param e input array[ni][nl] of fault attributes.
+   * @param d output array[ni][nl] of accumulated fault attributes.
    */
   private static void accumulate(int dir, int b, float[][] e, float[][] d) {
     int nl = e[0].length;
@@ -864,8 +862,8 @@ public class OptimalPathVoter {
   private int _ru,_rv;
   private int _esmooth = 1; // number of nonlinear smoothings of attributes
   private int _bstrain1 = 4; // inverse of bound on slope in 1st dimension
-  private double _usmooth1 = 2.0; // extent of smoothing shifts in 1st dim
-  private RecursiveExponentialFilter _ref1; // for smoothing shifts
+  private double _usmooth1 = 2.0; // extent of smoothing the picked path
+  private RecursiveExponentialFilter _ref1; // for smoothing path
   private static final float NO_STRIKE = -0.00001f;
   private static final float NO_DIP    = -0.00001f;
   private SincInterpolator _si;
