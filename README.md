@@ -38,10 +38,10 @@ Computes optimal voting surfaces, voting scores and a final 3D voting score map.
 Computes optimal voting paths, voting scores and a final 2D voting score map.
 
 #### FaultOrientScanner2
-Quickly scan for approximate fault dips
+Quickly scan for approximate fault dips in 2D
 
 #### FaultOrientScanner3
-Quickly scan for approximate fault strikes and dips
+Quickly scan for approximate fault strikes and dips in 3D
 
 #### FaultSkinner
 Automatically construct fault skins/surfaces from a final voting score map
