@@ -34,7 +34,7 @@ Here are brief descriptions of key components:
 #### OptimalSurfaceVoter
 Computes optimal voting surfaces, voting scores and a final 3D voting score map.
 
-#### OptimalSurfaceVoter
+#### OptimalPathVoter
 Computes optimal voting paths, voting scores and a final 2D voting score map.
 
 #### FaultOrientScanner2
